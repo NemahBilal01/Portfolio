@@ -14,7 +14,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    
     background-color: #aeba8a;
     margin: 0;
     padding: 0;
@@ -46,6 +45,7 @@ nav{
 .logo{
     margin: 10px 0;
     width: 150px;
+    height: 150px;
 }
 nav ul li{
     display: inline-block;
