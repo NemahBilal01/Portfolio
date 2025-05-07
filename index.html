@@ -10,16 +10,18 @@
 <body> 
     <div id="header">
     <div class="container">
-        <nav>
-            <img src="./img/logo.png" alt="Logo" class="logo">
-            <ul>
-                <li><a href="homePage.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <nav>
+                <img src="./img/logo.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="header-text">
             <p>Full-Stack Web Developer</p>
             <h1>Hello! I'm <span>Nemah</span> Bilal</h1>
@@ -67,32 +69,32 @@
 
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>09/2020 - 08/2024</span><br>Graduated from Middle East University with a bachelor's in computer science, with a GPA of 3.19</li>
+                        <li><span>09/2020 - 08/2024</span><br>Graduated from Middle East University with a bachelor's in computer science, <br>with a GPA of 3.19</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </div >
+    <div id="services"></div>
 </div>
 <!------- End of About Section ----->
-<div id="services">
+<div >
     <div class="container">
         <h1 class="sub-title">My Services</h1>
         <div class="services-list">
-            <div>
+            <div class="service">
                 <img src="./img/atom.png" alt="Web Design" class="service-icon">
                 <h2>Web Design</h2>
                 <p>I offer professional web design services that combine creativity 
                     and functionality to craft visually engaging, user-friendly websites</p>
-                    <a href="#">Learn more</a>
+                    
             </div>
-            <div>
+            <div class="service">
                 <img src="./img/files.png" alt="Web Design" class="service-icon">
                 <h2>Back-End Development</h2>
                 <p>I provide robust back-end development services to power your applications with 
                     secure databases, scalable APIs, and efficient server-side logic—ensuring smooth 
                     performance and seamless integration across platforms.</p>
-                    <a href="#">Learn more</a>
             </div>
         </div>
     </div>
@@ -108,7 +110,7 @@
                     <h3>ChocoLake Machine Service Report</h3>
                     <p>A web-based application for technicians to submit detailed service reports after 
                         scanning machine QR codes.</p>
-                         <a href="#"><img src="./img/expand-arrows.png"></a>
+                         <a href="#"><img src="./img/link-24.png"class="link"></a>
                 </div>
             </div>
             <div class="work">
@@ -117,101 +119,54 @@
                     <h3>Foodtek</h3>
                     <p>Food delivery app that allows users to browse menus, place orders,
                          track deliveries in real time, and manage profiles seamlessly</p>
-                         <a href="#"><img src="./img/expand-arrows.png"></a>
+                         <a href="#"><img src="./img/link-24.png"class="link"></a>
                 </div>
             </div>
             <div class="work">
                 <img src="./img/todo.png" alt="Project 3" class="work-img">
                 <div class="layer">
                     <h3>Todo Manager</h3>
-                    <p>Management app that helps you stay organized, track your daily activities, and boost your 
-                        productivity with an intuitive interface and smooth user experience.</p>
-                         <a href="#"><img src="./img/expand-arrows.png"></a>
+                    <p>A management app that helps you stay organized and track your daily 
+                        activities with an intuitive interface and smooth user experience.</p>
+                         <a href="#"><img src="./img/link-24.png" class="link"></a>
                 </div>
             </div>
         </div>
+        <a href="#" class="btn">See more</a>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-
-
-<div class="Projects">
-     <h2>Latest Projects</h2>
-            <ul class="project-list"> 
-                <li><a href="project1.html">Project 1</a></li>
-                <li><a href="project2.html">Project 2</a></li>
-                <li><a href="project3.html">Project 3</a></li>
-            </ul>
+<!------- End of Projects Section ----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>nameh.bilal@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nameh-bilal/"><img src="./img/linkedin.png" 
+                        alt="LinkedIn"class="link-contact"></a>
+                    <a href="https://github.com/NemahBilal01"><img src="./img/github.png" 
+                        alt="GitHub"class="link-contact"></a>
+                </div>
+                <a href="./img/Nemah Bilal.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
         </div>
-        
-        <section>
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Laravel</li>
-            </ul>
-        </section>
-        </section>
-        <section>
-            <h2>My Favorite Quotes</h2>
-            <ul>
-                <li>"The future belongs to those who believe in the beauty of their dreams."
-                     - Eleanor Roosevelt</li>
-                <li>"Life is what happens when you're busy making other plans." - John Lennon</li>
-            </ul>
-        </section>
-        <section>
-            <h2>My Favorite Foods</h2>
-            <ul>
-                <li>Ramen</li>
-                <li>Pasta</li>
-                <li>Ice Cream</li>
-            </ul>
-        </section>
+    </div>
+    <div class="copyright">
+        <p>&copy; Copyright Nemah Bilal. <img src="./img/heart.png" class="heart"> All rights reserved.</p>
+    </div>
+</div>
 
-        <nav>
-            <h2>Contact Me</h2>
-            <ul>
-                <li><a href="mailto:">Email</li>
-                <li><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">WhatsApp</a></li>
-        </nav>
-        -->
-    <footer>
-        <p>&copy; 2025 Nemah Bilal.</p>
-
-
-
+<!------- End of Contact Section ----->
 
  <script>
     var tablinks = document.getElementsByClassName('tab-links');
@@ -227,6 +182,31 @@
         event.currentTarget.classList.add('active-link');
         document.getElementById(tabname).classList.add('active-tab');
     }
- </script>      
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxUF38t4ubXhpze6ZB6D_D8J2gsIB_imLiLLwBI_b7yInONvZ-omtesbWqSrYJGH8iL/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+    window.addEventListener('scroll', function () {
+        const header = document.querySelector('.header-content');
+        if (window.scrollY > 800) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+</script>
 </body>
 </html>
