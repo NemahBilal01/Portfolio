@@ -55,7 +55,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     position: relative;
 }
 nav ul li a::after{
@@ -334,7 +334,9 @@ nav ul li a:hover::after{
 .social-icons{
     margin-top: 30px;
 }
-.social-icons a{
+.social-icons img{
+    width: 30px;
+    height: 30px;
     text-decoration: none;
     color: #FFFDEC;
     font-size: 30px;
@@ -357,7 +359,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 form input, form textarea{
-    width: 90%;
+    width: 80%;
     border: 0;
     outline: none;
     background: #FFFDEC;
@@ -376,14 +378,14 @@ form .btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
     background: #c6d7ae;
     font-weight: 300;
     margin-top: 20px;
 }
 .heart{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     padding: 3px 3px 0 0;
     
 }
