@@ -44,8 +44,8 @@ nav{
 
 .logo{
     margin: 10px 0;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 40px;
 }
 nav ul li{
     display: inline-block;
@@ -74,11 +74,11 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 20%;
     margin-left: 35px;
-    font-size: 30px;
+    font-size: 25px;
     color: #FFFDEC;
 }
 .header-text h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
 }
 .header-text h1 span{
@@ -106,12 +106,12 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 70px;
+    font-size: 50px;
     color: #d86a47;
     font-weight: 600;
 }
 .about-col-2 p{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
     width: 80%;
 }
@@ -121,7 +121,7 @@ nav ul li a:hover::after{
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -142,12 +142,12 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .tab-contents ul li span{
     color: #d86a47;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -160,7 +160,7 @@ nav ul li a:hover::after{
 
 /* ---------services section--------- */
 #services{
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .services-list{
     display: flex;
@@ -170,18 +170,18 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .service{
-    width: 40%;
-    height: 430px;
+    width: 30%;
+    height: 330px;
 }
 .services-list p{
-    font-size: 25px;
+    font-size: 18px;
     color: #FFFDEC;
     margin-top: 10px;
     width: 80%;
     line-height: 1.5;
 }
 .services-list h2{
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFDEC;
     margin-bottom: 15px;
     font-weight: 500;
@@ -217,7 +217,7 @@ nav ul li a:hover::after{
 }
 /* ---------projects section--------- */
 .sub-title2{
-    font-size: 90px;
+    font-size: 50px;
     color: #d86a47;
     font-weight: 600;
     margin-top: 100px;
@@ -261,15 +261,15 @@ nav ul li a:hover::after{
 }
 .layer h3{
     font-weight: 900;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 20px;
-    font-size: 25px;
+    font-size: 18px;
 }
 .layer a{
     margin-top:30px;
     color: #FFFDEC;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 60px;
     background-color: #D86A47;
     width: 50px;
@@ -291,6 +291,7 @@ nav ul li a:hover::after{
     height: 100%;
 }
 .layer p{
+    font-size: 18px;
     height: 30%;
     padding-top: 0px;
     margin-bottom: 10px;
@@ -300,7 +301,7 @@ nav ul li a:hover::after{
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #d86a47;
-    padding: 14px 50px;
+    padding: 12px 40px;
     border-radius: 6px;
     text-decoration: none;
     color: #FFFDEC;
