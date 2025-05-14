@@ -55,7 +55,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     position: relative;
 }
 nav ul li a::after{
@@ -78,7 +78,7 @@ nav ul li a:hover::after{
     color: #FFFDEC;
 }
 .header-text h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-top: 20px;
 }
 .header-text h1 span{
@@ -106,7 +106,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .sub-title{
-    font-size: 50px;
+    font-size: 2.5rem;
     color: #d86a47;
     font-weight: 600;
 }
@@ -185,14 +185,14 @@ nav ul li a:hover::after{
     color: #FFFDEC;
     margin-bottom: 15px;
     font-weight: 500;
-}
+}/*
 .services-list a{
     text-decoration: none;
     color: #FFFDEC;
     font-size: 20px;
     margin-top: 20px;
     display: inline-block;
-}
+}*/
 .service-icon{
     width: 40px;
     height: 40px;
@@ -308,8 +308,9 @@ nav ul li a:hover::after{
     font-weight: 400;
     font-size: 20px;
     background: #d86a47;
-    transition: backgroung 0.5s;
+    transition: background-color 0.3s ease;
 }
+
 .btn:hover{
     background: #e3866ae8;
 }
@@ -349,6 +350,7 @@ nav ul li a:hover::after{
 }
 
 .btn.btn2{
+    margin: 50px 10px;
     display: inline-block;
     background: #d86a47;
 }
@@ -381,6 +383,7 @@ form .btn2{
     padding: 20px 0;
     background: #c6d7ae;
     font-weight: 300;
+    font-size: 18px;
     margin-top: 20px;
 }
 .heart{
@@ -398,4 +401,120 @@ form .btn2{
 }
 
 
-/*#8b6439*/
+
+/* For iPads and Tablets (481px to 1200px) */
+@media (min-width: 481px) and (max-width: 1200px) {
+    #header{
+        width: 100%;
+    }
+    .header-content {
+        padding: 20px 50px 0;
+    }
+    .logo{
+        width: 90px;
+        height: 50px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .header-text {
+        margin-top: 70%;
+        margin-left: 20px;
+    }
+    .header-text h1 {
+        font-size: 3rem;
+    }
+    .header-text p {
+        font-size: 2rem;
+    }
+    .about-col-1, .about-col-2 {
+        flex-basis: 48%;
+    }
+    .services-list {
+        flex-wrap: wrap;
+    }
+    .service {
+        width: 45%;
+    }
+    .work-list {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .contact-left, .contact-right {
+        flex-basis: 48%;
+    }
+    .work{
+        height: 220px;
+    }
+    .layer{
+        padding: 10px 30px;
+    }
+    .layer a{
+        height: 0px;
+        width: 0px;
+    }
+}
+/* For Mobile Devices (320px to 480px) */
+@media(min-width:319px) and (max-width:480px){
+    #header{
+        width: 100%;
+    }
+    .header-content {
+        padding: 20px 60px 0;
+    }
+    .logo{
+        margin-left: 120px;
+        width: 70px;
+        height: 30px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+
+    .header-text {
+        margin-top: 130%;
+        margin-left: 10px;
+    }
+    .header-text h1 {
+        font-size: 30px;
+    }
+    .header-text p {
+        font-size: 20px;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-col-2{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .about-col-1 {
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .services-list {
+        flex-wrap: wrap;
+    }
+    .service {
+        height:450px;
+        width: 100%;
+    }
+    .service-icon{
+        width: 30px;
+        height: 30px;
+    }
+    .work-list{
+        margin-right: 20px;
+    }
+    .layer{
+        padding: 30px 30px;
+    }
+    .layer a{
+        height: 0px;
+        width: 0px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
